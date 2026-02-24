@@ -1,0 +1,2 @@
+# everythingHelpSelect
+辅助everything快速查询
