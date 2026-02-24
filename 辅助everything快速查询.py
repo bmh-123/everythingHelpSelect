@@ -5,7 +5,7 @@ from datetime import datetime
 from typing import Dict, List
 
 def get_everything_results(keyword: str) -> List[Dict]:
-    """调用Everything命令行工具es.exe获取搜索结果"""
+    """调用Everything命令行工具es.exe获取搜索结果 """
     try:
         cmd = f'es.exe -s -n 100 -sort dm "{keyword}"'
         result = subprocess.check_output(cmd, encoding='utf-8', shell=True)
